@@ -24,7 +24,7 @@ def consolidate_cart(cart)
         }
         new_array.push(new_item)
       end
-    i += 0
+    i += 1 
   end 
   return new_array
 end
