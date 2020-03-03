@@ -20,7 +20,7 @@ def consolidate_cart(cart)
       :item => cart[i][:item], 
       :price => cart[i][:price],
       :clearance => cart[i][:clearance],
-      :i => 1 
+      :count => 1 
         }
         new_array.push(new_item)
       end
