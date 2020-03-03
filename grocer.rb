@@ -31,7 +31,7 @@ end
 def apply_coupons(cart, coupons)
   counter = 0 
   while counter < coupons.length 
-  cart
+  cart_item = 
    end
   end
   counter += 1
